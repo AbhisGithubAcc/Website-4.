@@ -1,0 +1,159 @@
+#logo
+
+    {
+margin: 0 auto;
+height: 60px;
+justify-items: auto;
+padding-top: 7px;
+justify-content: baseline;
+position: absolute;
+top: -1%;
+left: 80px;
+transform: translate(-50%); 
+  }
+
+.container {
+margin: 0 auto;
+height: 40px;
+text-align: right;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+justify-items: auto;
+padding-top: 40px;
+justify-content: baseline;
+}    
+
+.container a {
+display: inline;
+text-decoration: none;
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+padding: 10px;
+text-align: right;
+font-size: 20px;
+font-weight: bold;
+left :500px;
+font-family:Georgia, 'Times New Roman', Times, serif
+    }
+    
+.container A:hover{
+color: gray;
+
+}  
+
+.video-container video {
+min-width: 100%;
+min-height: 100%;
+object-fit: cover;
+z-index: -1;
+}
+.text-overlay {
+position: absolute;
+top: 50%;
+left: 80%;
+transform: translate(-50%, -50%);
+color: white;
+font-size: 24px;
+z-index: 1;
+}
+.ExternalWebCss
+{
+  float: left;
+}
+.my-image1 { 
+height: 40%;
+width: 30%;
+}
+
+.my-image4 {
+  height: 15%;
+  width: 15%;
+}
+
+.my-image3 { 
+  height: 10%;
+  width: 10%;
+}
+
+.my-image2 { 
+  height: 20%;
+  width: 20%;
+}
+
+
+.my-image5 { 
+  height: 500px;
+  width: 500px;
+float: right;
+}
+
+.my-image6 { 
+  height: 500ps;
+  width: 500px;
+float: left;
+}
+
+.my-image7 { 
+  height: 500px;
+  width: 500px;
+float: right;
+}
+
+.my-image8 { 
+  height: 500ps;
+  width: 500px;
+float: left;
+}
+.p1 {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+input[type="submit"],
+
+input[type="reset"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+
+input[type="reset"]:hover {
+  background-color: #45a049;
+}
+
+footer {
+background-color: #333;
+ color: white;
+padding: 10px;
+text-align: center;
+bottom: 0;
+position: fixed;
+width: 100%;
+  }
+
+.scrollable {
+height: 200px;
+overflow-y: scroll;
+  }
+  
